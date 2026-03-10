@@ -36,7 +36,7 @@ pipeline {
                 if not exist "%DEPLOY_DIR%" mkdir "%DEPLOY_DIR%"
                 copy /Y index.php "%DEPLOY_DIR%\\index.php"
                 copy /Y health.php "%DEPLOY_DIR%\\health.php"
-                echo Deployment completed
+                echo Deployment completedd
                 '''
             }
         }
